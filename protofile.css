@@ -1,0 +1,73 @@
+body
+{
+    background-image: url("back.jpg"); background-repeat: no-repeat; color:white;
+}
+h1
+{
+    text-align: center;color: red;
+}
+ul
+{
+    list-style: none;
+}
+.main
+{
+ list-style: none; padding: 50px; width: 732px; margin: auto;
+}
+.A
+{
+    width: 244; float: left; font-size: 20px;
+}
+.ul1
+{
+    width: 180px; height: 90px;margin-top: 50px; font-size: 15px; background-color: dimgrey; display: none; 
+}
+.C:hover>.ul1{
+    display: block;
+}
+a
+{
+    color: white; font-size: 20px;text-decoration: none;
+}
+a:hover{border:border:2px solid black; background-color: rgb(94, 145, 175); padding: 50px 30px;}
+.ul2{
+    background-color: dimgrey; width: 110px;height: 40px; font-size: 15px;margin-top: 50px;padding: 0; display: none;
+}
+.D:hover>.ul2{
+    display: block;
+}
+.div2
+{
+    background-color: rgba(245, 222, 179, 0.253) ; border: 2px solid black; border-radius: 50px; width: 1200px; margin: auto; margin-top: 100px; text-align: center;
+}
+img
+{
+    border-radius: 50%;opacity: 0.8;
+}
+img:hover{
+    opacity: 1.5;
+}
+table
+{
+    width: 100%;font-size: 50px;border-collapse: collapse; text-align: center;
+}
+td{float: left;font-size: 50px;}
+@media screen and (max-width: 700px) {
+    h1{color: green;}
+    .div1, .div2{
+        width: 100%;height: 100%;
+    }
+    .A
+    {
+        float: none;
+    }
+    a:hover{border:border:2px solid black; background-color: rgb(94, 145, 175); padding: 10px 10px; margin: 20px;}
+    .C:hover>.ul1{
+        display: block;}
+        .ul2 ,.ul1{margin-top: 10px;margin-left: 20px;}
+        .ul1{width: 140px;}
+        .ul2{width: 70px;}
+        table{
+            margin-top: 100px;
+        }
+}
